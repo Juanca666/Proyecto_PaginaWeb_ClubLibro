@@ -1,0 +1,125 @@
+body{
+    margin: 0%;
+}
+header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: #6faafe;
+    height: 65px    
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.column {
+    background-color: #60606083;
+    height: 91vh;
+
+}
+
+.column1 {
+    background-color: #606060;
+    height: 91vh;
+}
+
+div.nav {
+    position: absolute;
+    right: 145px;
+    font-family: Inter;
+}
+
+a.ini {
+    position: relative;
+    right: 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a.ace {
+    position: relative;
+    right: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a.eve {
+    position: relative;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+img.ima_logo {
+    position: relative;
+    right: 91%;
+    height: 63px
+}
+
+img.ima_user {
+    position: relative;
+    height: 62px;
+    border-radius: 50%;
+    left: 8px;
+}
+
+div.div_cal {
+    position: relative;
+    text-align: center;
+    font-size: 26px;
+    font-family: Inter;
+}
+
+div.div_bus {
+    position: relative;
+    text-align: center;
+    font-size: 28px;
+    font-family: Inter;
+}
+
+img.gr3 {
+    position: relative;
+    height: 168px;
+    right: 94px;
+    top: 182px;
+}
+
+img.gr5 {
+    position: relative;
+    height: 168px;
+    top: 379px;
+    left: 16px;
+}
+
+img.gr4 {
+    position: relative;
+    left: 124px;
+    height: 168px;
+    top: -15px;
+}
+
+input.in_bus {
+    position: relative;
+    left: 33%;
+    height: 30px;
+    width: 412px;
+    border-radius: 0 5px 5px 0;
+}
+
+
+button.i_bu {
+    position: absolute;
+    left: 23%;
+    height: 34px;
+    z-index: 1;
+}
+
+div.libros {
+    position: relative;
+    top: 63px;
+    left: 11%;
+}

@@ -1,0 +1,144 @@
+
+.for_ini {
+    width: 410px;
+    height: 455px;
+    border-radius: 61px;
+    background-color: #080037;
+    top: 50vh;
+    color: white;
+    z-index: 2;
+    
+}
+
+h2.h2_ini{
+    text-align: center;
+    color: white;
+    
+    position: relative;
+    top: 17px;
+}
+
+body{
+   background-color: #D0DAF3;
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   padding-top: 151px;
+   padding-right: 136px;
+}
+
+div.user{
+    position: relative;
+    display: flex;
+    top: 41px;
+    left: 12%;
+}
+
+input#user {
+    height: 35px;
+    width: 280px;
+    position: relative;
+    top: 28px;
+    right: 17.5%;
+}
+
+input#pass {
+    margin: 0%;
+    height: 35px;
+    width: 280px;
+    position: relative;
+    top: 24px;
+    right: 26%;
+}
+
+input#pass1 {
+    margin: 0%;
+    height: 35px;
+    width: 280px;
+    position: absolute;
+    top: 24px;
+    right: 30%;
+}
+
+div.regis_link {
+    position: relative;
+    top: 42%;
+    left: 31%;
+}
+
+button.btn {
+    position: relative;
+    top: 40%;
+    left: 30%;
+    height: 9%;
+    margin: 0%;
+    width: 149px;
+    background-color: black;
+    border: black;
+    color: white;
+}
+
+div.reco_clave {
+    position: relative;
+    top: 25%;
+    left: 11.5%;
+}
+
+div.pass {
+    position: relative;
+    display: flex;
+    top: 19%;
+    left: 12%;
+}
+
+div.pass1 {
+    position: relative;
+    display: flex;
+    top: 27%;
+    left: 12%;
+    white-space: nowrap;
+}
+
+.bxs-lock-alt:before {
+    content: "\ee0d";
+    position: relative;
+    top: 31px;
+    font-size: 24px;
+    right: 99px;
+}
+
+.bxs-user:before {
+    content: "\eee1";
+    position: relative;
+    right: 64px;
+    top: 36px;
+    font-size: 24px;
+}
+
+a.a_cla {
+    color: white;
+}
+
+a.a_reg{
+    color: white;
+}
+
+img.e_107 {
+    position: relative;
+    right: -3%;
+    top: 51px;
+}
+
+img.e_108 {
+    position: relative;
+    right: 11%;
+    top: 201px;
+    height: 276px;
+}
+
+img.e_109 {
+    position: absolute;
+    top: 71px;
+    left: 24%;
+    z-index: 1;
+}

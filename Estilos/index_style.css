@@ -1,0 +1,146 @@
+
+
+header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: #6faafe;
+    height: 65px    
+}
+
+.boton_en {
+    margin-right: 30px;   
+}
+
+button.btn.btn-primary.btn-sm{
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px #000;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.column {
+    background-color: rgb(30 39 109);
+    border: 1px solid rgb(30 39 109);
+    height: 91.2vh;
+
+}
+
+.column1 {
+    height: 500px;
+    height: 91vh;
+}
+
+img.f_am {
+    border-radius:150px;
+}
+
+@media screen and (min-width: 1490px) {}
+
+
+h4.h_lect{
+    font-size: 52px;
+    font-family: Inter;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 24vh;
+}
+
+div.t_lect {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+div.lect {
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 159px;
+    top: 58px;
+}
+
+h6.lect{
+    text-align: center;
+    font-family: inter;
+    font-weight: 400;
+}
+
+div.b\.botn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 91px;
+}
+
+
+button.b\.botn {
+    height: 48px;
+    width: 154px;
+    background-color: black;
+    color: white;
+    font-size: 28px;
+    border-radius: 10px;
+}
+
+img.u2 {
+    position: relative;
+    left: 60%;
+    top: 25%;
+    height: 26%;
+    z-index: 2;
+}
+
+img.do {
+    position: relative;
+    left: 54%;
+    top: 109px;
+}
+
+img.hc3 {
+    position: relative;
+    top: 81.7%;
+    left: 192px;
+}
+
+img.hc2 {
+    position: relative;
+    left: 48.6%;
+    top: 46%;
+}
+
+img.hc1 {
+    position: absolute;
+    right: 43%;
+    top: 21%;
+}
+
+img.u1 {
+    position: absolute;
+    right: 46%;
+    top: 37%;
+
+}
+
+img.u3 {
+    position: relative;
+    right: 30%;
+    top: 54%;
+    z-index: 1;
+}
+
+img.pa {
+    position: relative;
+    right: 41%;
+    top: 56%;
+}
+
+img.u4 {
+    position: relative;
+    left: 68%;
+    top: 37%;
+}
